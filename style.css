@@ -1,0 +1,40 @@
+html{
+    background: linear-gradient(#f5a997, #ff6b39);
+    height: 850px;
+    
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+}
+
+button{
+    color:  #f0e7cf;
+    background: #4461a8;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 38px;
+    width: 30%;
+    height: 80px;
+    border: none;
+    box-shadow: #1f272e 2px 4px;
+}
+
+
+p{
+    margin-left: 60px;
+    width: 45%;
+    float: left;
+}
+button:hover{
+    background: #6281cf;
+    color: white;
+}
+
+article{
+    text-align: center;
+}
+
+input{
+    border-radius: 15px;
+}
