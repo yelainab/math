@@ -1,6 +1,7 @@
 html{
-    background: linear-gradient(#f5a997, #ff6b39);
-    height: 850px;
+    background: #a3d2d5;
+    height: 805px;
+    color: #45625d;
     
     font-size: 30px;
 }
@@ -9,15 +10,13 @@ h2{
 }
 
 button{
-    color:  #f0e7cf;
-    background: #4461a8;
+    background: #6aa5a9;
     font-size: 30px;
     margin: 10px;
-    border-radius: 38px;
-    width: 30%;
-    height: 80px;
+    width: 25%;
+    height: 50px;
     border: none;
-    box-shadow: #1f272e 2px 4px;
+    margin-left: 70px;
 }
 
 
@@ -27,8 +26,11 @@ p{
     float: left;
 }
 button:hover{
-    background: #6281cf;
-    color: white;
+    width: 25%;
+    color: #6aa5a9;
+    background: #9ccfa0;
+    opacity: 1;
+    transition: opacity 1s, width 1s;
 }
 
 article{
@@ -36,5 +38,9 @@ article{
 }
 
 input{
-    border-radius: 15px;
+    width: 250px;
+    height: 25px;
+    border: #6aa5a9;
+    border-width: 2px;
+    border-style: solid;
 }
