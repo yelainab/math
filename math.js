@@ -669,9 +669,8 @@ function unique(){
     }
 
     if(o1 === 1 && o2 === 1 && o3 === 1 && o4 === 1 && o5 === 1 && o6 === 1){
-        output.innerHTML = "there are no duplicates";
-    }
-    if(o1 !== 1 && o1 !== o2 && o1 !== o3 && o1 !== o4 && o1 !== o5 && o1 !== o6 ){
-        output.innerHTML = "the duplicate is " + one;
+        output.innerHTML = "the uniques are " + one + two + three + four + five + six;
     }
 }
+
+function duplicates
